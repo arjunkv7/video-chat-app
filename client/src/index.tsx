@@ -12,7 +12,7 @@ root.render(
   <React.StrictMode>
     <RoomProvider>
       <App />
-  </RoomProvider >
+    </RoomProvider >
   </React.StrictMode>
 );
 
