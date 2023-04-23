@@ -10,7 +10,8 @@ interface IroomParams {
 
 export const roomHandler = (socket: Socket) => {
     function createRoom() {
-        let roomId = uuidV4();
+        let roomId1 = uuidV4();
+        let roomId = "firstRoom"
         allRooms[roomId] = [];
         console.log('Room created', roomId);
         socket.emit('room-created', { roomId });
